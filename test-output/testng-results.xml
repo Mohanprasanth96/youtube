@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-25T13:44:01 GMT-12:00" name="Suite" finished-at="2022-08-25T13:45:03 GMT-12:00" duration-ms="62570">
+    <groups>
+    </groups>
+    <test started-at="2022-08-25T13:44:01 GMT-12:00" name="Test1" finished-at="2022-08-25T13:44:47 GMT-12:00" duration-ms="46907">
+      <class name="com.testng.Flipkart">
+        <test-method is-config="true" signature="Sample1(java.lang.String)[pri:0, instance:com.testng.Flipkart@19e4653c]" started-at="2022-08-25T13:44:01 GMT-12:00" name="Sample1" finished-at="2022-08-25T13:44:05 GMT-12:00" duration-ms="4693" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Sample1 -->
+        <test-method is-config="true" signature="Sample3(java.lang.String)[pri:0, instance:com.testng.Flipkart@19e4653c]" started-at="2022-08-25T13:44:05 GMT-12:00" name="Sample3" finished-at="2022-08-25T13:44:22 GMT-12:00" duration-ms="16285" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.flipkart.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Sample3 -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:com.testng.Flipkart@19e4653c]" started-at="2022-08-25T13:44:22 GMT-12:00" name="login" data-provider="data" finished-at="2022-08-25T13:44:42 GMT-12:00" duration-ms="20810" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9677680225]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mohan@19]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:com.testng.Flipkart@19e4653c]" started-at="2022-08-25T13:44:42 GMT-12:00" name="aftermethod" finished-at="2022-08-25T13:44:47 GMT-12:00" duration-ms="5074" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:com.testng.Flipkart@19e4653c]" started-at="2022-08-25T13:44:47 GMT-12:00" name="afterclass" finished-at="2022-08-25T13:44:47 GMT-12:00" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+      </class> <!-- com.testng.Flipkart -->
+    </test> <!-- Test1 -->
+    <test started-at="2022-08-25T13:44:01 GMT-12:00" name="Test" finished-at="2022-08-25T13:45:03 GMT-12:00" duration-ms="62570">
+      <class name="com.testng.HotelAddict">
+        <test-method is-config="true" signature="BeforeClass(java.lang.String)[pri:0, instance:com.testng.HotelAddict@6440112d]" started-at="2022-08-25T13:44:01 GMT-12:00" name="BeforeClass" finished-at="2022-08-25T13:44:13 GMT-12:00" duration-ms="12237" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeClass -->
+        <test-method is-config="true" signature="BeforeMethod(java.lang.String)[pri:0, instance:com.testng.HotelAddict@6440112d]" started-at="2022-08-25T13:44:13 GMT-12:00" name="BeforeMethod" finished-at="2022-08-25T13:44:36 GMT-12:00" duration-ms="22722" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://adactin.com/HotelApp/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:com.testng.HotelAddict@6440112d]" started-at="2022-08-25T13:44:36 GMT-12:00" name="login" data-provider="data" finished-at="2022-08-25T13:44:44 GMT-12:00" duration-ms="8099" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9677680225]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[NTP42F]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:com.testng.HotelAddict@6440112d]" started-at="2022-08-25T13:44:44 GMT-12:00" name="AfterMethod" finished-at="2022-08-25T13:44:46 GMT-12:00" duration-ms="2420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method is-config="true" signature="Afterclass()[pri:0, instance:com.testng.HotelAddict@6440112d]" started-at="2022-08-25T13:44:46 GMT-12:00" name="Afterclass" finished-at="2022-08-25T13:44:59 GMT-12:00" duration-ms="13192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Afterclass -->
+        <test-method is-config="true" signature="AfterTest()[pri:0, instance:com.testng.HotelAddict@6440112d]" started-at="2022-08-25T13:44:59 GMT-12:00" name="AfterTest" finished-at="2022-08-25T13:45:03 GMT-12:00" duration-ms="3864" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterTest -->
+      </class> <!-- com.testng.HotelAddict -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
