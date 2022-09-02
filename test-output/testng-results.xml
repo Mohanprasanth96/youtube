@@ -1,63 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-08-25T13:44:01 GMT-12:00" name="Suite" finished-at="2022-08-25T13:45:03 GMT-12:00" duration-ms="62570">
+  <suite started-at="2022-09-02T11:05:37 GMT-12:00" name="Suite" finished-at="2022-09-02T11:05:47 GMT-12:00" duration-ms="10456">
     <groups>
     </groups>
-    <test started-at="2022-08-25T13:44:01 GMT-12:00" name="Test1" finished-at="2022-08-25T13:44:47 GMT-12:00" duration-ms="46907">
-      <class name="com.testng.Flipkart">
-        <test-method is-config="true" signature="Sample1(java.lang.String)[pri:0, instance:com.testng.Flipkart@19e4653c]" started-at="2022-08-25T13:44:01 GMT-12:00" name="Sample1" finished-at="2022-08-25T13:44:05 GMT-12:00" duration-ms="4693" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Sample1 -->
-        <test-method is-config="true" signature="Sample3(java.lang.String)[pri:0, instance:com.testng.Flipkart@19e4653c]" started-at="2022-08-25T13:44:05 GMT-12:00" name="Sample3" finished-at="2022-08-25T13:44:22 GMT-12:00" duration-ms="16285" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://www.flipkart.com/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Sample3 -->
-        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:com.testng.Flipkart@19e4653c]" started-at="2022-08-25T13:44:22 GMT-12:00" name="login" data-provider="data" finished-at="2022-08-25T13:44:42 GMT-12:00" duration-ms="20810" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[9677680225]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Mohan@19]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method is-config="true" signature="aftermethod()[pri:0, instance:com.testng.Flipkart@19e4653c]" started-at="2022-08-25T13:44:42 GMT-12:00" name="aftermethod" finished-at="2022-08-25T13:44:47 GMT-12:00" duration-ms="5074" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- aftermethod -->
-        <test-method is-config="true" signature="afterclass()[pri:0, instance:com.testng.Flipkart@19e4653c]" started-at="2022-08-25T13:44:47 GMT-12:00" name="afterclass" finished-at="2022-08-25T13:44:47 GMT-12:00" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterclass -->
-      </class> <!-- com.testng.Flipkart -->
-    </test> <!-- Test1 -->
-    <test started-at="2022-08-25T13:44:01 GMT-12:00" name="Test" finished-at="2022-08-25T13:45:03 GMT-12:00" duration-ms="62570">
+    <test started-at="2022-09-02T11:05:37 GMT-12:00" name="Test" finished-at="2022-09-02T11:05:47 GMT-12:00" duration-ms="10456">
       <class name="com.testng.HotelAddict">
-        <test-method is-config="true" signature="BeforeClass(java.lang.String)[pri:0, instance:com.testng.HotelAddict@6440112d]" started-at="2022-08-25T13:44:01 GMT-12:00" name="BeforeClass" finished-at="2022-08-25T13:44:13 GMT-12:00" duration-ms="12237" status="PASS">
+        <test-method is-config="true" signature="BeforeClass(java.lang.String)[pri:0, instance:com.testng.HotelAddict@53045c6c]" started-at="2022-09-02T11:05:37 GMT-12:00" name="BeforeClass" finished-at="2022-09-02T11:05:43 GMT-12:00" duration-ms="6624" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -68,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeClass -->
-        <test-method is-config="true" signature="BeforeMethod(java.lang.String)[pri:0, instance:com.testng.HotelAddict@6440112d]" started-at="2022-08-25T13:44:13 GMT-12:00" name="BeforeMethod" finished-at="2022-08-25T13:44:36 GMT-12:00" duration-ms="22722" status="PASS">
+        <test-method is-config="true" signature="BeforeMethod(java.lang.String)[pri:0, instance:com.testng.HotelAddict@53045c6c]" started-at="2022-09-02T11:05:43 GMT-12:00" name="BeforeMethod" finished-at="2022-09-02T11:05:47 GMT-12:00" duration-ms="3708" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -76,10 +26,82 @@
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[unknown error: cannot determine loading status
+from disconnected: received Inspector.detached event
+  (Session info: MicrosoftEdge=104.0.1293.70)
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'MOHAN', ip: '192.168.43.152', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [da63be810a1ac8d74b1bf07f79edf165, get {url=http://adactin.com/HotelApp/}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 104.0.1293.70, ms:edgeOptions: {debuggerAddress: localhost:50102}, msedge: {msedgedriverVersion: 104.0.1293.70 (6709c341bd06..., userDataDir: C:\Users\91967\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50102/devtoo..., se:cdpVersion: 104.0.1293.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: da63be810a1ac8d74b1bf07f79edf165]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
+from disconnected: received Inspector.detached event
+  (Session info: MicrosoftEdge=104.0.1293.70)
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'MOHAN', ip: '192.168.43.152', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [da63be810a1ac8d74b1bf07f79edf165, get {url=http://adactin.com/HotelApp/}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 104.0.1293.70, ms:edgeOptions: {debuggerAddress: localhost:50102}, msedge: {msedgedriverVersion: 104.0.1293.70 (6709c341bd06..., userDataDir: C:\Users\91967\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50102/devtoo..., se:cdpVersion: 104.0.1293.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: da63be810a1ac8d74b1bf07f79edf165
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:332)
+at com.datadriven.base.BaseClass.openApp(BaseClass.java:35)
+at com.testng.HotelAddict.BeforeMethod(HotelAddict.java:68)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:816)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:590)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:com.testng.HotelAddict@6440112d]" started-at="2022-08-25T13:44:36 GMT-12:00" name="login" data-provider="data" finished-at="2022-08-25T13:44:44 GMT-12:00" duration-ms="8099" status="PASS">
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:com.testng.HotelAddict@53045c6c]" started-at="2022-09-02T11:05:47 GMT-12:00" name="login" data-provider="data" finished-at="2022-09-02T11:05:47 GMT-12:00" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -92,18 +114,90 @@
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[unknown error: cannot determine loading status
+from disconnected: received Inspector.detached event
+  (Session info: MicrosoftEdge=104.0.1293.70)
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'MOHAN', ip: '192.168.43.152', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [da63be810a1ac8d74b1bf07f79edf165, get {url=http://adactin.com/HotelApp/}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 104.0.1293.70, ms:edgeOptions: {debuggerAddress: localhost:50102}, msedge: {msedgedriverVersion: 104.0.1293.70 (6709c341bd06..., userDataDir: C:\Users\91967\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50102/devtoo..., se:cdpVersion: 104.0.1293.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: da63be810a1ac8d74b1bf07f79edf165]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
+from disconnected: received Inspector.detached event
+  (Session info: MicrosoftEdge=104.0.1293.70)
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'MOHAN', ip: '192.168.43.152', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [da63be810a1ac8d74b1bf07f79edf165, get {url=http://adactin.com/HotelApp/}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 104.0.1293.70, ms:edgeOptions: {debuggerAddress: localhost:50102}, msedge: {msedgedriverVersion: 104.0.1293.70 (6709c341bd06..., userDataDir: C:\Users\91967\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50102/devtoo..., se:cdpVersion: 104.0.1293.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: da63be810a1ac8d74b1bf07f79edf165
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:332)
+at com.datadriven.base.BaseClass.openApp(BaseClass.java:35)
+at com.testng.HotelAddict.BeforeMethod(HotelAddict.java:68)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:816)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:590)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:com.testng.HotelAddict@6440112d]" started-at="2022-08-25T13:44:44 GMT-12:00" name="AfterMethod" finished-at="2022-08-25T13:44:46 GMT-12:00" duration-ms="2420" status="PASS">
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:com.testng.HotelAddict@53045c6c]" started-at="2022-09-02T11:05:47 GMT-12:00" name="AfterMethod" finished-at="2022-09-02T11:05:47 GMT-12:00" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterMethod -->
-        <test-method is-config="true" signature="Afterclass()[pri:0, instance:com.testng.HotelAddict@6440112d]" started-at="2022-08-25T13:44:46 GMT-12:00" name="Afterclass" finished-at="2022-08-25T13:44:59 GMT-12:00" duration-ms="13192" status="PASS">
+        <test-method is-config="true" signature="Afterclass()[pri:0, instance:com.testng.HotelAddict@53045c6c]" started-at="2022-09-02T11:05:47 GMT-12:00" name="Afterclass" finished-at="2022-09-02T11:05:47 GMT-12:00" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Afterclass -->
-        <test-method is-config="true" signature="AfterTest()[pri:0, instance:com.testng.HotelAddict@6440112d]" started-at="2022-08-25T13:44:59 GMT-12:00" name="AfterTest" finished-at="2022-08-25T13:45:03 GMT-12:00" duration-ms="3864" status="PASS">
+        <test-method is-config="true" signature="AfterTest()[pri:0, instance:com.testng.HotelAddict@53045c6c]" started-at="2022-09-02T11:05:47 GMT-12:00" name="AfterTest" finished-at="2022-09-02T11:05:47 GMT-12:00" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterTest -->
