@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="55554" started-at="2022-09-03T23:08:59Z" finished-at="2022-09-03T23:09:55Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="55554" started-at="2022-09-03T23:08:59Z" finished-at="2022-09-03T23:09:55Z">
+      <class name="com.testng.HotelAddict">
+        <test-method status="PASS" signature="BeforeClass(java.lang.String)[pri:0, instance:com.testng.HotelAddict@358c99f5]" name="BeforeClass" is-config="true" duration-ms="18985" started-at="2022-09-03T11:08:59Z" finished-at="2022-09-03T11:09:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeClass -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.String)[pri:0, instance:com.testng.HotelAddict@358c99f5]" name="BeforeMethod" is-config="true" duration-ms="11560" started-at="2022-09-03T11:09:18Z" finished-at="2022-09-03T11:09:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://adactin.com/HotelApp/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:com.testng.HotelAddict@358c99f5]" name="login" duration-ms="6852" started-at="2022-09-03T11:09:30Z" data-provider="data" finished-at="2022-09-03T11:09:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9677680225]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[NTP42F]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:com.testng.HotelAddict@358c99f5]" name="AfterMethod" is-config="true" duration-ms="3492" started-at="2022-09-03T11:09:36Z" finished-at="2022-09-03T11:09:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method status="PASS" signature="Afterclass()[pri:0, instance:com.testng.HotelAddict@358c99f5]" name="Afterclass" is-config="true" duration-ms="14233" started-at="2022-09-03T11:09:40Z" finished-at="2022-09-03T11:09:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Afterclass -->
+        <test-method status="PASS" signature="AfterTest()[pri:0, instance:com.testng.HotelAddict@358c99f5]" name="AfterTest" is-config="true" duration-ms="344" started-at="2022-09-03T11:09:54Z" finished-at="2022-09-03T11:09:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterTest -->
+      </class> <!-- com.testng.HotelAddict -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
