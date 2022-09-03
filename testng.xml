@@ -8,4 +8,18 @@
       <class name="com.testng.HotelAddict"/>
     </classes>
   </test> <!-- Test -->
+  <test thread-count="5" name="Test1">
+  <parameter name="browser" value="chrome"></parameter>
+  <parameter name="url" value="https://www.flipkart.com/"></parameter>
+    <classes>
+      <class name="com.testng.Flipkart"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="Test2">
+  <parameter name="browser" value="chrome"></parameter>
+  <parameter name="url" value="https://www.flipkart.com/"></parameter>
+    <classes>
+      <class name="com.testng.TestNGNew"/>
+    </classes>
+  </test> <!-- Test -->
 </suite> <!-- Suite -->
